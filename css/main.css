@@ -1,11 +1,10 @@
 html {
      box-sizing: border-box;
+     margin: 0;
+     padding: 0;
 }
 *, *::before, *::after {
      box-sizing: inherit;
-}
-body {
-     line-height: 24px;
 }
 .container {
      width: 900px;
@@ -25,8 +24,6 @@ body {
 .real {
      list-style: none;
      height: 138px;
-     padding-left: 0px;
-     margin-top: 0px;
      text-align: center;
      vertical-align: middle;
      padding-bottom: 0px;
@@ -43,16 +40,10 @@ body {
 .main-item {
      list-style: none;
      padding-left: 0px;
-     margin: 0;
-     padding: 0;
 }
 .site-navigation {
-     height: 138px;
      margin: 0px;
      padding: 0px;
-}
-.site-navigation li {
-     font-size: 14px;
 }
 .site-navigation a:hover,
 .site-navigation a:focus {
@@ -66,27 +57,27 @@ body {
      margin-right: 56px;
      padding-left: 0px;
 }
-.footer-item {
-     height: 186px;
-     font-size: 20px;
-     text-align: center;
-     vertical-align: middle;
-}
-.button-item {
-     border: 1px solid #000;
-     display: inline;
-     margin: 0;
-     padding: 18px 48px;
-     font-size: 20px;
-     line-height: 24px;
-     cursor: pointer;
-     margin-top: 58px;
-     background-color: #fff;
-}
-.main-item p:not(:last-child) {
-     color: #b4ad9e;
-     text-transform: uppercase;
-}
 h2 {
      font-size: 30px;
+}
+.button-item {
+     display: block;
+     border: 1px solid #000;
+     width: 164px;
+     height: 60px;
+     background-color: #fff;
+     margin: auto;
+     margin-top: 56px;
+     font-family: 'Playfair Display', serif;
+     font-size: 20px;
+     font-weight: 400;
+     margin-bottom: 70px;
+}
+
+.pharagraph-style {
+     font-family: 'Ubuntu', sans-serif;
+     line-height: 17px;
+     color: #b4ad9e;
+     text-transform: uppercase;
+
 }
